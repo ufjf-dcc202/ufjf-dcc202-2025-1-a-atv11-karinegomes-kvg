@@ -31,7 +31,7 @@ function removerItemNaLista() {
     const entrada = pEntrada.textContent;
     const numero = parseInt(entrada);
     if (!isNaN(numero)) {
-        removerDaLista(numero-1);
+        removeDaLista(numero-1);
         atualizarLista();
     }
     else {
